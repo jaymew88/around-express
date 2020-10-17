@@ -1,0 +1,31 @@
+{
+  "name": "around-express",
+  "version": "1.0.0",
+  "description": "Project 12 - Practicum By Yandex Web Development Program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaymew88/around-express.git"
+  },
+  "keywords": [],
+  "author": "Jayme Waye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaymew88/around-express/issues"
+  },
+  "homepage": "https://github.com/jaymew88/around-express#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
