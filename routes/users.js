@@ -1,7 +1,7 @@
 const routes = require('express').Router();
 const fs = require('fs').promises;
 const path = require('path');
-const usersPath = path.join(__dirname, '../data/users.json');
+const usersPath = path.join(__dirname, '..', 'data', 'users.json');
 
 const doesUserExist = (req, res) => {
   fs.readFile(usersPath, { encoding: 'utf-8' })
