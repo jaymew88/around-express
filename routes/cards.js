@@ -12,7 +12,7 @@ routes.get('/', getCards);
 routes.post('/', createCard);
 routes.delete('/:cardId', deleteCard);
 routes.put('/:cardId/likes', likeCard);
-routes.delete('/:cardId/unlikeCard', dislikeCard);
+routes.delete('/:cardId/likes', dislikeCard);
 
 
 module.exports = routes;
