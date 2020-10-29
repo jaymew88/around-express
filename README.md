@@ -2,13 +2,16 @@
 
 ## Directories
 
-`/public` — static files from the build of the React front-end app.
+`/controllers` — interaction with controllers.
 
-`/data` — JSON files to temporarily emulate database integration.
+`/models` — data schemeas.
 
 `/routes` — routing files.
 
-All other directories are optional and may be created by the developer if necessary. 
+## Languages/Devs:
+- Node.js
+- Express.js
+- MongoDB 
 
 ## Running the Project
 
